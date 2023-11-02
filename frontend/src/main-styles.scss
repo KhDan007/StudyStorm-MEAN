@@ -5,10 +5,20 @@
 
 // Update Bulma's global variables
 $family-sans-serif: "Lato";
-$primary: #18206F;
+$primary: #fff;
 $link: #FF9494;
 
 // Update some of the Bulma's component variables
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+
+// Set custom global styles (will be applied to whole app)
+
+body {
+  background-color: #18206F;
+}
+
+html, body {
+  height: 100%;
+}
